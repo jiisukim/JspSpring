@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>성적 계산 결과</title>
+</head>
+<body>
+	이름 : ${pointVO.name}<br>
+	국어 : ${pointVO.kor}<br>
+	영어 : ${pointVO.eng}<br>
+	수학 : ${pointVO.math}<br>
+	<hr>
+	총점 : ${pointVO.total}<br>
+	평균 : ${pointVO.average}<br>
+	평균 : ${avg}
+</body>
+</html>

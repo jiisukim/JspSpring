@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="dditProj"/>
+<aop-project name="camb"/>
+<aop-project name="koreaProj"/>
+<aop-project name="dasuriProj"/>
+</aop-reference-model>

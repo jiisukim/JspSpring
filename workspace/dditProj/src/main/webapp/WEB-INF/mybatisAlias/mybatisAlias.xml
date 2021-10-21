@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- namespace : .xml파일은 여러 개 생성되므로 이를 구별하는 용도임 -->
+
+<configuration>
+	<!-- 자주 사용하는 타입의 벌팅 -->
+	<typeAliases>
+		<typeAlias type="kr.or.ddit.item.vo.Item" alias="itemVo"/>
+		<typeAlias type="kr.or.ddit.item.vo.MemberVO2" alias="memberVo"/>
+	</typeAliases>
+</configuration>

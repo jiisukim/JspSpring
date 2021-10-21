@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>파라미터 없는 오류 처리(web.xml)</title>
+</head>
+<body>
+<!-- 
+<에러 페이지 처리>
+우선순위 1. page 디렉티브의 errorPage 속성(전용 에러 처리)
+우선순위 2. web.xml 파일의 <exception-type>(범용 에러처리)
+우선순위 3. web.xml 파일의 <error-code>(별도 에러 처리)
+우선순위 4. 아무것도 안했을 땐.. 웹 컨테이너가 제공하는 기본 에러 페이지를 보여줌
+ -->
+<%
+String memId = request.getParameter("memId").toString();
+
+%>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace : .xml 파일은 여러개 생성되므로 이를 구별하는 용도임 -->
+<mapper namespace="book">
+
+</mapper>

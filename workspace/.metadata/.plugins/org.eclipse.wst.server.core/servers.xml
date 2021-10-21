@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="120" stop-timeout="15" testEnvironment="true" timestamp="30">
+    <list key="modules" value0="dditProj::org.eclipse.jst.jee.server:dditProj::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost korPj-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost (2)" name="Tomcat v8.5 Server at localhost korPj_dasuri" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="13">
+    <list key="modules" value0="koreaProj::org.eclipse.jst.jee.server:koreaProj::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost dasuri-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost dasuri" name="Tomcat v8.5 Server at localhost dasuri" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="dasuriProj::org.eclipse.jst.jee.server:dasuriProj::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/camb v8.5 server-config" deployDir="wtpwebapps" hostname="localhost" id="camb v8.5 server" name="camb v8.5 server" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="camb::org.eclipse.jst.jee.server:camb::jst.web::2.5"/>
+  </server>
+</servers>
